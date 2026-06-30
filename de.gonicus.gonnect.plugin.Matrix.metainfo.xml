@@ -50,13 +50,13 @@
   </description>
 
   <releases>
+    <release version="0.3" date="2026-06-30"/>
+    <release version="0.2" date="2026-06-02"/>
     <release version="0.1" date="2026-05-21">
     <description>
       <p>Initial release</p>
     </description>
     </release>
-    <release version="0.2" date="2026-06-02"/>
-    <release version="0.3" date="2026-06-30"/>
   </releases>
 
 </component>
