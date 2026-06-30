@@ -1,7 +1,7 @@
 id: de.gonicus.gonnect.plugin.Matrix
 runtime: de.gonicus.gonnect
 runtime-version: 'stable'
-branch: "2"
+branch: "3"
 
 sdk: org.kde.Sdk//6.10
 sdk-extensions:
@@ -38,8 +38,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/gonicus/gouda-matrix.git
-        tag: v0.2
-        commit: 5550e1de74ca716433c823c9facee73f55c1bbbf
+        tag: v0.3
+        commit: 80b8b9c56ceee89b758ab3d8a8ebf0b813d7cb4f
       - type: file
         path: de.gonicus.gonnect.plugin.Matrix.metainfo.xml
       - cargo-sources.yml
