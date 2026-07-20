@@ -29,6 +29,8 @@ modules:
         CARGO_NET_OFFLINE: 'true'
 
     build-commands:
+      # gouda_proto build.rs expects protos/ at ../protos relative to its
+      # vendor directory. This symlink resolves that without a commit hash.
       - ln -sf ../../flatpak-cargo/git/gouda-core-rs-f861afb/protos cargo/vendor/protos
       - cargo --offline fetch --manifest-path Cargo.toml --verbose
       - cargo build --offline --release --all-features
